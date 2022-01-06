@@ -1,0 +1,13 @@
+package com.demo.hazelcast.repository.dao;
+
+import com.demo.hazelcast.TestDomain;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+
+public interface TestJPARepository extends JpaRepository<TestDomain, String> {
+    TestDomain findByName(String name);
+    TestDomain findById(Integer id);
+
+    @Query("SELECT id FROM TestDomain")
+    Iterable<Integer> getAllIds();
+}

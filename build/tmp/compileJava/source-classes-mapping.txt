@@ -1,0 +1,16 @@
+com/demo/hazelcast/TestController.java
+ com.demo.hazelcast.TestController
+com/demo/hazelcast/TestDomain.java
+ com.demo.hazelcast.TestDomain
+com/demo/hazelcast/repository/dao/TestJPARepository.java
+ com.demo.hazelcast.repository.dao.TestJPARepository
+com/demo/hazelcast/HazelcastConfig.java
+ com.demo.hazelcast.HazelcastConfig
+com/demo/hazelcast/repository/cache/TestRepository.java
+ com.demo.hazelcast.repository.cache.TestRepository
+com/demo/hazelcast/HazelcastDemoApplication.java
+ com.demo.hazelcast.HazelcastDemoApplication
+com/demo/hazelcast/TestDemoStore.java
+ com.demo.hazelcast.TestDemoStore
+com/demo/hazelcast/TestService.java
+ com.demo.hazelcast.TestService

@@ -1,0 +1,17 @@
+hazelcast:
+  cluster-name: hazelcast-cluster
+  network:
+    join:
+      multicast:
+        enabled: true
+      tcp-ip:
+        enabled: false
+      kubernetes:
+        enabled: false
+  map:
+    testDomain:
+      time-to-live-seconds: 0
+      map-store:
+        enabled: true
+        initial-mode: LAZY
+        class-name: com.demo.hazelcast.TestDemoStore
